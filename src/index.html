@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>App</title>
+    <base href="/">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- <div class="slidecontainer">
+      <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    </div> -->
+    <body>
+      <!-- <div class="blur"> -->
+      <div id="cesiumContainer">
+      </div>
+      <div id="titleRozwoj">
+        <img src="Assets/Images/rozwoj_zabudowy.png" alt="tytuł">
+      </div>
+      <div>
+        <input type="button" id="ready_btn" value="Rozpocznij">
+      </div>
+      <div id="header" class="showing">
+        <div id="headerTitle">Wizualizacja budynków miasta Lublin w 3D</div>
+      </div>
+      <div id="timeline" class="showing">
+        <div id="soft"></div>
+      </div>
+      <div id="timeline-count" class="showing">2017</div>
+      <div id="basemaps" class="showing">
+        <INPUT id="light-button" type="submit" value="">
+        <INPUT id="dark-button" type="submit" value="">
+        <INPUT id="world-imagery-button" type="submit" value="">
+        <!-- <input type="image" src="/dist/Assets/Images/ion-credit.png" id="light-button"> -->
+        <!-- <input type="iamge" id="dark-button"> -->
+      </div>
+      <figure class="showing">
+        <button id="button-play" name="play"></button>
+      </figure>
+      <figure>
+        <button id="button-stop" name="stop"></button>
+      </figure>
+      <div id="legend" class="showing">
+        <div id="legend-title">Budynki wybudowane w latach:</div>
+        <div class="layer" id="layer1">
+          <div class="box" id="box1"></div>
+          <div class="layername">2001-2017</div>
+        </div>
+        <div class="layer" id="layer2">
+          <div class="box" id="box2"></div>
+          <div class="layername">1981-2000</div>
+        </div>
+        <div class="layer" id="layer3">
+          <div class="box" id="box3"></div>
+          <div class="layername">1961-1980</div>
+        </div>
+        <div class="layer" id="layer4">
+          <div class="box" id="box4"></div>
+          <div class="layername">1941-1960</div>
+        </div>
+        <div class="layer" id="layer5">
+          <div class="box" id="box5"></div>
+          <div class="layername">1921-1940</div>
+        </div>
+        <div class="layer" id="layer6">
+          <div class="box" id="box6"></div>
+          <div class="layername">1901-1920</div>
+        </div>
+        <div class="layer" id="layer7">
+          <div class="box" id="box7"></div>
+          <div class="layername">&lt;1900</div>
+        </div>
+        <!-- <div id="cesiumContainerBackground"></div> -->
+      <!-- </div> -->
+    </div>
+      <button class="arrow-button" id="legendBtn">Legenda<span class="arrow"></span>
+      </button>
+
+  </body>
+</html>
